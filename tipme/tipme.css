@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100%;
+background-image: url("http://www.spiritcruises.com/website/images/brands/spirit/header/spirit-dinner-menu-header-1435-2806.jpg");;
+  padding: 10px;
+  font-size:15px;
+  color:red;
+
+  font-weight: bold;
+}
+span {
+  width:200px;
+  padding:10px 5px;
+}
+input {
+  width:250px;
+  margin: 10px 0 10px 0;
+}
+
+h3 {
+  margin-left: 5px;
+}
+.amount-field {
+  line-height: 21px;
+  padding: 2px;
+  font-size: 16px;
+  color: #666;
+}
+.tip-amount {
+  color: #a62c29;
+}
+
