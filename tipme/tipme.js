@@ -1,7 +1,9 @@
 $(function () {
 
-    $("#calc").on("click", function () {
 
+
+    $("#calc").on("click", function () {
+        
         var split = $("#splitBetween").val();
 
         var tipPrecent = $("#tipp").val();
@@ -21,7 +23,7 @@ $(function () {
         $("#split").html("<h3> Total Bill For Each Person" + splitTotal.toFixed(2) + "</h3>");
         
 
-        });
+        })
 
 $("#billClear").on("click", function (){
             $("#totalBill").html("<h3> Total Bill + Tip = </h3>");
@@ -35,40 +37,47 @@ $("#billClear").on("click", function (){
             total = null;
             splitTotal = null;
 
-    });
+    })
 
-$("#calc").on("click", function checkbill() {
-    var x = $("#bill").value;
-    if (x == null || x == "") {
-        alert("Bill amount must Be valid amount");
-        return false;
-    }
+     
+    
+});
     
 
 
 
-function validate(evt) {
-   var theEvent = evt || window.event;
-   var key = theEvent.keyCode || theEvent.which;
-   key = String.fromCharCode(key);
-   var regex = /[0-9]|\./;
-   if (!regex.test(key)) {
-       theEvent.returnValue = false;
-       if (theEvent.preventDefault) theEvent.preventDefault();
-   }
 
-}
-})
+        
+    
+    
 
-});
-function validate(evt) {
-   var theEvent = evt || window.event;
-   var key = theEvent.keyCode || theEvent.which;
-   key = String.fromCharCode(key);
-   var regex = /[0-9]|\./;
-   if (!regex.test(key)) {
-       theEvent.returnValue = false;
-       if (theEvent.preventDefault) theEvent.preventDefault();
-   }
 
-}
+
+
+
+
+
+
+
+
+
+/*function validate(evt) {
+            var theEvent = evt || window.event;
+            var key = theEvent.keyCode || theEvent.which;
+            key = String.fromCharCode(key);
+            var regex = /[0-9]|\./;
+            if (!regex.test(key)) {
+                theEvent.returnValue = false;
+                if (theEvent.preventDefault) theEvent.preventDefault();
+            }
+
+$("#calc").on("click", function checkbill() {
+    var x = $("#bill").value
+    if (inputtx.value.length == 0)  
+      {   
+        alert("Bill amount must Be valid amount")
+        
+    } 
+    return true;   
+    }   
+*/
