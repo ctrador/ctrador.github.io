@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Guessing Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Official Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+  <!-- Our project CSS -->
+  <link rel="stylesheet" href="guessinggame.css">
+</head>
+
+<body>
+  <div>
+    <h1>Chad's Guessing Game </h1>
+  </div>
+
+  <hr />
+  
+<div class="container">
+  <div class="row">
+  
+  <div class="col-sm-4">
+    <div class="jumbotron">
+  
+    <label for="ex2">One Number Zero Thru Nine </label>
+    <select class="form-control firstNumber" option>
+                      <option id="boxThree0" value="0">0</option>
+                      <option id="boxThree1" value="1" >1</option>
+                      <option id="boxThree2" value="2" >2</option>
+                      <option id="boxThree6" value="3" >3</option>
+                      <option id="boxThree4" value="4" >4</option>
+                      <option id="boxThree5" value="5" >5</option>
+                      <option id="boxThree6" value="6" >6</option>
+                      <option id="boxThree7" value="7" >7</option>
+                      <option id="boxThree8" value="8" >8</option>
+                      <option id="boxThree9" value="9" >9</option> </select>
+  </div>
+  </div>
+  <div class="col-sm-4">
+    <div class=jumbotron>
+    <label for="ex2">One Number Zero Thru Nine </label>
+    <select class="form-control secondNumber">
+                      <option id="boxThree0" value="0">0</option>
+                      <option id="boxThree1" value="1" >1</option>
+                      <option id="boxThree2" value="2" >2</option>
+                      <option id="boxThree6" value="3" >3</option>
+                      <option id="boxThree4" value="4" >4</option>
+                      <option id="boxThree5" value="5" >5</option>
+                      <option id="boxThree6" value="6" >6</option>
+                      <option id="boxThree7" value="7" >7</option>
+                      <option id="boxThree8" value="8" >8</option>
+                      <option id="boxThree9" value="9" >9</option>    </select>
+  </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="jumbotron">
+    <label for="ex2">One Number Zero Thru Nine </label>
+    <select class="form-control thirdNumber">
+                      <option id="boxThree0" value="0">0</option>
+                      <option id="boxThree1" value="1" >1</option>
+                      <option id="boxThree2" value="2" >2</option>
+                      <option id="boxThree6" value="3" >3</option>
+                      <option id="boxThree4" value="4" >4</option>
+                      <option id="boxThree5" value="5" >5</option>
+                      <option id="boxThree6" value="6" >6</option>
+                      <option id="boxThree7" value="7" >7</option>
+                      <option id="boxThree8" value="8" >8</option>
+                      <option id="boxThree9" value="9" >9</option>
+    </select>
+    </div>
+    </div>
+  </div>
+  <div class="row">
+  <div class="container">
+<div class="col-sm-4">
+  <div class= "highScore">
+
+<div class="jumbotron "><p1>Try Left <span> </span>
+</p1>
+</div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+  <div><button type="submit" class="btn btn-primary btn-block check" id="check"  >Check To See If You Guessed Right</button></div>
+  
+<hr  />
+
+  <div><button id= "gameStart" type="submit" class="btn btn-primary btn-block check">Click To Start Game</button></div>
+  
+
+  <hr  />
+
+  <div class="container">
+    <div class="row">
+  
+
+<div class=jumbotron ><p1 class="instructions"> Put one number 0 thru 9 in each box; if the box turns <span style="color: red;" > Red</span> the number is not one of the three numbers; if box turns<span style="color: green;" > Green </span> the number is correct and it is in the correct spot.  If the box turns<span style="color: yellow;"> Yellow </span> the number is in the number is correct, but it is in the wrong box try again. You will have 10 chances </p1></div>
+
+  <!-- Official JQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <!-- Official Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <!-- Our project JS -->
+  <script src="guessinggame.js"></script>
+
+</body>
+
+</html>

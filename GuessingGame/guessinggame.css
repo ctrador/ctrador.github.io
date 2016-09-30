@@ -1,0 +1,65 @@
+
+h1 {
+    color: blue;
+    text-align: center;
+font-weight: bold;
+
+    text-shadow:black;
+}
+
+.firstNumber{
+    background-color:deeppink;
+height: 1200 px;
+text-align: center;
+    font-weight: bold;
+
+}
+
+.secondNumber{
+    text-align: center; 
+  background-color:deeppink;
+height: 1200 px;   
+font-weight: bold;
+
+}
+
+.thirdNumber{
+     background-color:deeppink;
+height: 1200 px;
+font-weight: bold;
+
+}
+.option .red{
+    
+    background-color: red;
+
+}
+
+.option .yellow{
+    
+    background-color: yellow;
+
+}
+
+.option .green{
+    
+    background-color: green;
+
+}
+
+.instructions{
+    text-align: center;
+    font-weight: bold;
+}
+
+.highscore{
+
+    font-weight: bold;
+    text-align: right;
+    font-size: 40px;
+color: red
+}
+
+.row-top .try,.row-bottom .score,.row-bottom {
+  font-size:40px;
+}
