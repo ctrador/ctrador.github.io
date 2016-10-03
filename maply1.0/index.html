@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chad's aply</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Official Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+    <!-- Our project CSS -->
+    <link rel="stylesheet" href="maply.css">
+
+      <!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+     </head>
+  <body>
+      
+        <h1>Chad Trador's Maply</h1>
+
+            <input id ="zoom-to-area-text" type=text placeholder="Enter Addres And or Zip Here">
+       
+        <input id="zoom-to-area" type="button" value="Find your Address">
+    </div>
+    
+    
+    <hr  />
+
+    <div id="map"></div>
+    
+    <div>
+
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 37.771467, lng: -82.837819},
+          zoom: 8
+        });
+ 
+
+
+      }
+
+    
+      </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA66cWKVgfjelpn0p6a5pfNShURwhu8Fyk&callback=initMap"
+    async defer></script>
+  </body>
+</html>
+
+   
+    <!-- Official JQuery -->
+    <script src="jquery-3.1.1.js"></script>
+    <!-- Official Bootstrap -->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <!-- Our project JS -->
+    <script src="maply.js"></script>
+  </body>
+</html>
