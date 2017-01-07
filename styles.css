@@ -1,0 +1,12 @@
+.black-background {
+    color: red
+    
+}
+.about-me {
+    background: black;
+    background-size: cover;
+}
+.about-me2 {
+    background: url(http://e15initiative.org/wp-content/uploads/2014/11/Data-and-the-Digital-economy-4.jpg);
+    background-size: cover;
+}
